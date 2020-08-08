@@ -1,26 +1,24 @@
-<a style="float:right;font-size:12px;" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/ibeacon/index.ts#L220">
-  Improve this doc
-</a>
+This is a quick fix for the issue that arises when trying to integrate iBeacon plugin into Ionic 5 project.
 
-# IBeacon
+## Issue measseg
+```
+TypeError: Cannot read property 'locationManager' of undefined
+```
+
+## Solution
+- Install the plugins
 
 ```
 $ ionic cordova plugin add cordova-plugin-ibeacon
 $ npm install @ionic-native/ibeacon
 ```
+- Replace the folowing file with the ones in this repo,
+  - index.js 
+  - ngx/index.js
+  - __ivy_ngcc__/ngx/index.js 
 
-## [Usage Documentation](https://ionicframework.com/docs/native/ibeacon/)
 
-Plugin Repo: [https://github.com/petermetz/cordova-plugin-ibeacon](https://github.com/petermetz/cordova-plugin-ibeacon)
-
-This plugin provides functions for working with iBeacons.
-
- The plugin's API closely mimics the one exposed through the [CLLocationManager](https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocationManager_Class/index.html) introduced in iOS 7.
-
-## Supported platforms
-
-- Android
-  - iOS
+<b>The solution has been tested using both iOS and Android devices. [see](https://github.com/YouQam/Bluetooth-Beacons-Scanner)</b>
   
 
 
