@@ -1,0 +1,53 @@
+{
+  "_from": "@ionic-native/ibeacon",
+  "_id": "@ionic-native/ibeacon@5.27.0",
+  "_inBundle": false,
+  "_integrity": "sha512-L5zUpF6M/MCxR6+aGqsk4+7O/WPQIb3dlByi8I5Swrz0LJ0k0+hY0PdKFaLGBqEwzTmdtEn/47KsOG/MRVxiUA==",
+  "_location": "/@ionic-native/ibeacon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@ionic-native/ibeacon",
+    "name": "@ionic-native/ibeacon",
+    "escapedName": "@ionic-native%2fibeacon",
+    "scope": "@ionic-native",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ionic-native/ibeacon/-/ibeacon-5.27.0.tgz",
+  "_shasum": "2da8ae84a2b7065d78c642dfaefd6f92a6eeda8c",
+  "_spec": "@ionic-native/ibeacon",
+  "_where": "/Users/webteam/master_prototype/mt_beacon_cordova_1",
+  "author": {
+    "name": "ionic"
+  },
+  "bugs": {
+    "url": "https://github.com/ionic-team/ionic-native/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/cordova": "latest"
+  },
+  "deprecated": false,
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/ionic-team/ionic-native#readme",
+  "license": "MIT",
+  "module": "index.js",
+  "name": "@ionic-native/ibeacon",
+  "peerDependencies": {
+    "rxjs": "^5.5.0 || ^6.5.0",
+    "@ionic-native/core": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/ionic-native.git"
+  },
+  "typings": "index.d.ts",
+  "version": "5.27.0"
+}
