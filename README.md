@@ -12,7 +12,7 @@ TypeError: Cannot read property 'locationManager' of undefined
 $ ionic cordova plugin add cordova-plugin-ibeacon
 $ npm install @ionic-native/ibeacon
 ```
-- Replace the folowing file with the ones in this repo,
+- Modify the folowing three files in path `node_modules/@ionic-native/ibeacon` with the ones in this repo,
   - index.js 
   - ngx/index.js
   - __ivy_ngcc__/ngx/index.js 
