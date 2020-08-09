@@ -1,6 +1,6 @@
 This is a quick fix for the issue that arises when trying to integrate iBeacon plugin into Ionic 5 project.
 
-## Issue measseg
+## Issue message
 ```
 TypeError: Cannot read property 'locationManager' of undefined
 ```
